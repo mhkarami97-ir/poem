@@ -2,6 +2,19 @@
 layout: null
 ---
 
+@import url("../fonts/Vazirmatn-font-face.css");
+
+* {
+    font-family: Vazirmatn, Tahoma, serif !important;
+}
+
+body,
+html,
+button,
+input {
+    font-family: Vazirmatn, Tahoma, serif !important;
+}
+
 .navbar-tiffany,
 .banner{
     background: -webkit-linear-gradient(45deg, rgba(0 , 0, 0, 0) 48%, rgba(0 , 0, 0, 0.1) 50%, rgba(0 , 0, 0, 0) 52%),
@@ -110,7 +123,7 @@ body {
 }
 
 body,code,pre{
-    font-family:  Tahoma, "Tahoma", sans-serif;
+    font-family: Vazirmtn, Tahoma;
 }
 
 body,.sheet,pre,code{
