@@ -1,0 +1,112 @@
+@import '../fonts/Vazirmatn-font-face.css';
+
+:root {
+  font-family: Vazirmatn, Tahoma, sans-serif !important;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+em,
+b,
+u,
+small,
+mark,
+del,
+ins,
+sub,
+sup,
+abbr,
+cite,
+q,
+time,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+caption,
+input,
+textarea,
+select,
+button,
+label,
+fieldset,
+legend,
+optgroup,
+option,
+a,
+nav,
+menu,
+figcaption,
+article,
+section,
+aside,
+main,
+header,
+footer,
+div,
+kbd,
+samp,
+blockquote {
+  font-family: Vazirmatn, Tahoma, sans-serif !important;
+}
+
+.pagination {
+  direction: ltr;
+}
+
+.post-navigation .btn:first-child {
+  border-radius: 0 10px 10px 0;
+}
+
+.post-navigation .btn:last-child {
+  border-radius: 10px 0 0 10px;
+}
+
+.code-header::before {
+  display: none !important;
+}
+
+.nav-item {
+  margin-right: 0;
+}
+
+#sidebar .site-subtitle {
+  text-align: center;
+}
+
+#sidebar .site-title {
+  font-weight: 700;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div[class^='language-'] {
+  direction: ltr;
+}
+
+div[class^='language-'] .code-header span {
+  margin-left: 0 !important;
+}
+
+.img-link img {
+  max-width: 50%;
+  margin: 0 auto;
+}

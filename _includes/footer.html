@@ -1,13 +1,16 @@
-    <footer  class="footnote footnote-tiffany">
-        <div class="container">
-                <a class="foot-item" href="mailto:{{ site.email }}" target="_blank"><span class="octicon octicon-mail"></span></a>
-                <a class="foot-item" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" target="_blank"><span class="octicon octicon-rss"></span></a>
-                &nbsp;
-                <a href="https://mhkarami97.ir"><span class="word-keep">&copy; mhkarami97</span></a>
-        </div>
-    </footer>
-    <script type="text/javascript" src="{{'/static/js/jquery.min.js' | prepend:site.baseurl | prepend: site.url  }}"></script>
-    <script type="text/javascript" src="{{'/static/js/bootstrap.min.js' | prepend:site.baseurl | prepend: site.url  }}"></script>
-    <script type="text/javascript" src="{{'/static/js/script.js' | prepend:site.baseurl | prepend: site.url  }}"></script>
-    {% for script in page.scripts %}<script type="text/javascript" src="{{'/static/js/' | append:script | prepend:site.baseurl | prepend: site.url  }}"></script>
-    {%endfor%}
+<!-- The Footer -->
+
+<footer
+  aria-label="Site Info"
+  class="
+    d-flex flex-column justify-content-center text-muted
+    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3">
+  <p>
+    {{- '©' }}
+    {% if site.social.links %}
+      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>
+    {% else %}
+      <em class="fst-normal">{{ site.social.name }}</em>
+    {% endif %}
+  </p>
+</footer>
